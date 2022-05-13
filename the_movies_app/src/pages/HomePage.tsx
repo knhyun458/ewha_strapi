@@ -5,7 +5,7 @@ import popularImg from '../assets/images/popcorn.png'
 import nowPlayingImg from '../assets/images/seats.jpeg'
 import axios from 'axios';
 
-axios.get('http://localhost:1337/api/restaurants').then(response => {
+axios.get('http://localhost:1337/api/movies').then(response => {
   console.log(response);
 });
 
